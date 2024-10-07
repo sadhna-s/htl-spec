@@ -1443,6 +1443,11 @@ The Use-API POJOs can also expose a public method, called `init`, with the follo
 The `bindings` map can contain objects that provide context to the currently executed HTL script that the Use-API object can use for its processing.
 
 ### 4.2. JavaScript Use-API
+
+>The JavaScript Use API has been deprecated for use with AEM as a Cloud Service. Please use [the Java Use API instead.](https://experienceleague.adobe.com/en/docs/experience-manager-htl/content/java-use-api)
+>
+>[Please see the AEM as a Cloud Service release notes](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/release-notes/deprecated-removed-features) for more information on deprecated and removed features.
+
 Use objects can also be defined with JavaScript, using the following conventions:
 
 ```javascript
